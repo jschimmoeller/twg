@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jschimmoeller/twg/issues"
   },
-  "homepage": "https://github.com/jschimmoeller/twg#readme"
+  "homepage": "https://github.com/jschimmoeller/twg#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24"
+  }
 }
