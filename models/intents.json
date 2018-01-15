@@ -7,7 +7,7 @@
       "intent": "AMAZON.PauseIntent"
     },
     {
-      "intent": "PlaySong"
+      "intent": "TimeWithGod"
     }
   ]
 }
