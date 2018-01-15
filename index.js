@@ -1,10 +1,13 @@
 var Alexa = require('alexa-sdk');
 
-exports.handler = function(event, context, callback) {
-    var alexa = Alexa.handler(event, context);
+exports.handler = function(event, context) {
+  console.log("====================");
+  console.log("REQUEST: " + JSON.stringify(event));
+  console.log("====================");
 
-    alexa.registerHandlers(handlers);
-    alexa.execute();
+  var alexa = Alexa.handler(event, context);
+  alexa.registerHandlers(handlers);
+  alexa.execute();
 };
 
 var handlers = {
