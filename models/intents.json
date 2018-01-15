@@ -7,7 +7,13 @@
       "intent": "AMAZON.PauseIntent"
     },
     {
-      "intent": "TimeWithGod"
+      "intent": "TimeWithGod",
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        }
+      ]
     }
   ]
 }

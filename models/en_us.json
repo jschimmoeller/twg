@@ -1,0 +1,65 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "start",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "open",
+              "synonyms": [
+                "start",
+                "play",
+                "get",
+                "pray",
+                "let us pray"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "TimeWithGod",
+        "samples": [
+          "{start}",
+          "{start} {date}",
+          "{date}"
+        ],
+        "slots": [
+          {
+            "name": "start",
+            "type": "start"
+          },
+          {
+            "name": "date",
+            "type": "AMAZON.DATE"
+          }
+        ]
+      }
+    ],
+    "invocationName": "time with god"
+  }
+}

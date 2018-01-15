@@ -1,1 +1,7 @@
-TimeWithGod Play my song
+TimeWithGod open
+TimeWithGod start
+TimeWithGod pray
+TimeWithGod open {date}
+TimeWithGod start {date}
+TimeWithGod play {date}
+TimeWithGod get {date}
